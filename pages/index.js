@@ -164,47 +164,49 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay={150} >
-                <Image src={counts} width={600} height={430} alt="..." className="img-thumbnail shadow" />
-              </div>
-              <div className="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay={300} >
-                <div className="content d-flex flex-column justify-content-center">
-                  <div className="row">
-                    <div className="col-md-6 d-md-flex align-items-md-stretch">
-                      <div className="count-box">
-                        <i className="bi bi-globe" />
-                        <p>
-                          <strong>MISIÓN <br /></strong> Ofrecer servicios aduanales con calidad, seguridad y profesionalismo a importadores y exportadores.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-md-6 d-md-flex align-items-md-stretch">
-                      <div className="count-box">
-                        <i className="bi bi-eye" />
-                        <p>
-                          <strong>VISIÓN <br /></strong> Constituirnos en socios de nuestros clientes, entender sus necesidades
-                          y satisfacer cada una de ellas mediante una respuesta rápida en el trámite de sus mercancías.
-                        </p>
-                      </div>
-                    </div>
-                    <div className="col-md-6 d-md-flex align-items-md-center">
-                      <div className="count-box">
-                        <i className="bi bi-heart" />
-                        <p><strong>VALORES <br /></strong></p>
-                        <div className="container mb-4">
-                          <ul>
-                            <li>Voluntad Empresarial</li>
-                            <li>Respeto</li>
-                            <li>Ética Profesional</li>
-                          </ul>
+                <video width="500" height="500" autoPlay loop controls muted>
+                  <source src="/img/logistica4.mp4" type="video/mp4"/>
+                    </video>
+                  </div>
+                  <div className="col-xl-7 d-flex align-items-stretch pt-4 pt-xl-0" data-aos="fade-left" data-aos-delay={300} >
+                    <div className="content d-flex flex-column justify-content-center">
+                      <div className="row">
+                        <div className="col-md-6 d-md-flex align-items-md-stretch">
+                          <div className="count-box">
+                            <i className="bi bi-globe" />
+                            <p>
+                              <strong>MISIÓN <br /></strong> Ofrecer servicios aduanales con calidad, seguridad y profesionalismo a importadores y exportadores.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-md-6 d-md-flex align-items-md-stretch">
+                          <div className="count-box">
+                            <i className="bi bi-eye" />
+                            <p>
+                              <strong>VISIÓN <br /></strong> Constituirnos en socios de nuestros clientes, entender sus necesidades
+                              y satisfacer cada una de ellas mediante una respuesta rápida en el trámite de sus mercancías.
+                            </p>
+                          </div>
+                        </div>
+                        <div className="col-md-6 d-md-flex align-items-md-center">
+                          <div className="count-box">
+                            <i className="bi bi-heart" />
+                            <p><strong>VALORES <br /></strong></p>
+                            <div className="container mb-4">
+                              <ul>
+                                <li>Voluntad Empresarial</li>
+                                <li>Respeto</li>
+                                <li>Ética Profesional</li>
+                              </ul>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>
+                    {/* End .content*/}
                   </div>
-                </div>
-                {/* End .content*/}
               </div>
             </div>
-          </div>
         </section>
         {/* End Counts Section */}
         {/* ======= Services Section ======= */}
