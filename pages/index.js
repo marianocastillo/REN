@@ -164,7 +164,7 @@ export default function Home() {
           <div className="container">
             <div className="row">
               <div className="image col-xl-5 d-flex align-items-stretch justify-content-center justify-content-xl-start" data-aos="fade-right" data-aos-delay={150} >
-                <video width="500" height="500" autoPlay loop controls muted>
+                <video width="500" height="500" autoPlay loop muted>
                   <source src="/img/logistica4.mp4" type="video/mp4"/>
                     </video>
                   </div>
